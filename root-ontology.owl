@@ -1,0 +1,577 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://webprotege.stanford.edu/project/CHlJUQS9H6sg0pZeDoKjPw#"
+     xml:base="http://webprotege.stanford.edu/project/CHlJUQS9H6sg0pZeDoKjPw"
+     xmlns:webprotege="http://webprotege.stanford.edu/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://webprotege.stanford.edu/project/CHlJUQS9H6sg0pZeDoKjPw"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8apyFQcC7PnI8uiVtEyXlR -->
+
+    <owl:AnnotationProperty rdf:about="http://webprotege.stanford.edu/R8apyFQcC7PnI8uiVtEyXlR">
+        <rdfs:label>hasReference</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#definition -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#example -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#example"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC0CSgMrqDGcstGW1mDgdig -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RC0CSgMrqDGcstGW1mDgdig">
+        <rdfs:label>hasPhotoCollection</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDJjdU3ctrfqoGt5JmEXVoS -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RDJjdU3ctrfqoGt5JmEXVoS">
+        <rdfs:label>hasArchitect</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#samaAs -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2002/07/owl#samaAs">
+        <rdfs:label>owl:samaAs</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R1ll864kSnyxbSh17G1ZG1 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R1ll864kSnyxbSh17G1ZG1">
+        <rdfs:label>Red green brown alliance</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDnnpjK0ddDcqgYMJjWLtLw"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#samaAs"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RCZPB63UZaD11ecpApgvdDo"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R2amNDM09gF3I35Q1uqB8l -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R2amNDM09gF3I35Q1uqB8l">
+        <rdfs:label>Hunter building</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9VqRCDLBvhfRYTCdoiYm9O"/>
+        <skos:definition>The Hunter Building is the original building of the Victoria University of Wellington campus in Wellington, New Zealand.Built mostly of red brick in the Gothic-revival style, it was opened by the Governor of New Zealand, Lord Plunket, in 1904, but construction was not completed until 1906. Initially the building housed the entire university, but as staff and student numbers grew other buildings were added. After World War I, a stained-glass memorial window was added to the library in commemoration of staff and students who had died in the war. The Hunter Building gradually become dilapidated and an earthquake risk, and there were demolition plans. In 1981 the building was added to the Heritage New Zealand register as a Category 1 historic building. Public and campus pressure led to the building being saved from demolition. It has since been restored and earthquake-strengthened. The building now hosts various administrative offices and the university&apos;s council chamber, which occupies the old library.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R784MmosTQWL8nydoZ71I5W -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R784MmosTQWL8nydoZ71I5W">
+        <rdfs:label>Institute of education building</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9VqRCDLBvhfRYTCdoiYm9O"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R797fbVVVmspJdt0aLFfS6X -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R797fbVVVmspJdt0aLFfS6X">
+        <rdfs:label>Data Library</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RXdPjPvXlVhAUGqBpd2cK0"/>
+        <skos:definition>A data library refers to both the content and the services that foster use of collections of numeric, audio-visual, textual or geospatial data sets for secondary use in research. (See below to view definition from the Online Dictionary for Library and Information Science.) A data library is normally part of a larger institution (academic, corporate, scientific, medical, governmental, etc.) established to serve the data users of that organisation. The data library tends to house local data collections and provides access to them through various means (CD-/DVD-ROMs or central server for download). A data library may also maintain subscriptions to licensed data resources for its users to access. Whether a data library is also considered a data archive may depend on the extent of unique holdings in the collection, whether long-term preservation services are offered, and whether it serves a broader community (as national data archives do).</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7NGbA5s5bTMLA3L7BRzD6z -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7NGbA5s5bTMLA3L7BRzD6z">
+        <rdfs:label>Green building</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9VqRCDLBvhfRYTCdoiYm9O"/>
+        <webprotege:R8apyFQcC7PnI8uiVtEyXlR>Boyden L. &amp; Weiner J. Sustainable libraries: Teaching environmental responsibility to communities [Electronic version]. The Bottom Line, 13, 74-82.</webprotege:R8apyFQcC7PnI8uiVtEyXlR>
+        <skos:definition>Many view the library as having a unique role in the green building movement due to its altruistic mission, public and pedagogical nature, and the fact that new libraries are usually high profile, community driven projects.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7TjwGtVrdcnytrtqT929Kb -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7TjwGtVrdcnytrtqT929Kb">
+        <rdfs:label>Hybrid Library</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RXdPjPvXlVhAUGqBpd2cK0"/>
+        <skos:definition>Hybrid library is a term used by librarians to describe libraries containing a mix of traditional print library resources and the growing number of electronic resources.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7VWg9FLohOklIFFxIWnq9Y -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7VWg9FLohOklIFFxIWnq9Y">
+        <rdfs:label>Environmental art</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDnnpjK0ddDcqgYMJjWLtLw"/>
+        <skos:definition>Environmental art is an umbrella term for a range of artistic practices encompassing both historical approaches to nature in art and more recent ecological and politically-motivated types of works.&apos;The term &quot;environmental art&quot; often encompasses &quot;ecological&quot; concerns but is not specific to them. It acknowledges the early history of this movement (which was often more about art ideas than environmental ones) as well as art with more activist concerns and art which primarily celebrates an artist&apos;s connection with nature using natural materials.The term &quot;environmental art&quot; is used in a variety of different contexts: it can be used to refer to art describing the natural world, art that celebrates personal engagement with the natural world (&quot;art in nature&quot;), and to the practices of ecological artists, whose work directly addresses environmental issues (&quot;ecological art&quot; or &quot;eco-art&quot;) through educating people about the natural world, or intervening in and restoring the natural world. Ecological artist, Aviva Rahmani believes that &quot;Ecological Art is an art practice, often in collaboration with scientists, city planners, architects and others, that results in direct intervention in environmental degradation. Often, the artist is the lead agent in that practice.&quot;The media and activities used by environmental artists are incredibly diverse, including painting, photography, performance art, politically activist events, experiments with light and sound, sculpture, eco-feminism, creation of large earth-based installations (&quot;earthworks&quot;, &quot;land art&quot;), architectural installations, and scientific inventions. Scientific information frequently inspires or is incorporated into such works.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7aEgIZMapwwSjHuL9ftpYF -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7aEgIZMapwwSjHuL9ftpYF">
+        <rdfs:label>Sustainable Building</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCofu2WqVOq8BAEUf6BnVLw"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7bWUBBnZQaiWyx2mQaMBd -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7bWUBBnZQaiWyx2mQaMBd">
+        <rdfs:label>Technocentrism</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDnnpjK0ddDcqgYMJjWLtLw"/>
+        <rdfs:comment>Technocentrism is a term that denotes a value system that is centered on technology and its ability to control and protect the environment. Technocentrics have absolute faith in technology and industry and firmly believe that humans have control over nature. Although technocentrics may accept that environmental problems exist, they do not see them as problems to be solved by a reduction in industry. Rather, environmental problems are seen as problems to be solved using science and technology.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7hz76GRkV8OZYdsnjRMYT2 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7hz76GRkV8OZYdsnjRMYT2">
+        <rdfs:label>Sustainability declaration</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7aEgIZMapwwSjHuL9ftpYF"/>
+        <skos:definition>Sustainability declarations are checklists of sustainability features that was a requirement to be completed by home-owners and vendors in Queensland, Australia before a home can be sold. The checklist identifies the property&apos;s environmental and social sustainability features in the four areas of energy, water, safety, and access.Home owners must complete these sustainability checklists or risk being fined up to $4000. Advertising for homes must also include details about where the Sustainability Declaration for the property can be viewed. Properties that have a larger number of sustainability features generate fewer greenhouse gas emissions, use less energy for heating and cooling, use less water and are more comfortable to live in. They also can have fewer operating costs and be more energy and water efficient.Sustainability Declaration now no longer needed for Queensland home owners August 2012</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8A8HdU3Hqlq49wV6E4LMMn -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8A8HdU3Hqlq49wV6E4LMMn">
+        <rdfs:label>Research Library</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RXdPjPvXlVhAUGqBpd2cK0"/>
+        <rdfs:comment>A library is an organized collection of sources of information and similar resources, made accessible to a defined community for reference or borrowing. It provides physical or digital access to material, and may be a physical building or room, or a virtual space, or both. A library&apos;s collection can include books, periodicals, newspapers, manuscripts, films, maps, prints, documents, microform, CDs, cassettes, videotapes, DVDs, Blu-ray Discs, e-books, audiobooks, databases, and other formats.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8bzdH6APTVwWwFYeA8hHeT -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8bzdH6APTVwWwFYeA8hHeT">
+        <rdfs:label>Energy efficient landscaping</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7aEgIZMapwwSjHuL9ftpYF"/>
+        <skos:definition>Energy-efficient landscaping is a type of landscaping designed for the purpose of conserving energy. There is a distinction between the embedded energy of materials and constructing the landscape, and the energy consumed by the maintenance and operations of a landscape.Design techniques include: Planting trees for the purpose of providing shade, which reduces cooling costs. Planting or building windbreaks to slow winds near buildings, which reduces heat loss. Wall sheltering, where shrubbery or vines are used to create a windbreak directly against a wall. Earth sheltering and positioning buildings to take advantage of natural landforms as windbreaks. Green roofs that cool buildings with extra thermal mass and evapotranspiration. Reducing the heat island effect with pervious paving, high albedo paving, shade, and minimizing paved areas. Site lighting with full cut off fixtures, light level sensors, and high efficiency fixturesEnergy-efficient landscaping techniques include using local materials, on-site composting and chipping to reduce greenwaste hauling, hand tools instead of gasoline-powered, and also may involve using drought-resistant plantings in arid areas, buying stock from local growers to avoid energy in transportation, and similar techniques.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8k8z2IR1GslQMPF9GNYzAB -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8k8z2IR1GslQMPF9GNYzAB">
+        <rdfs:label>Gestalt practice</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDnnpjK0ddDcqgYMJjWLtLw"/>
+        <rdfs:comment>Gestalt Practice is a contemporary form of personal exploration and integration developed by Dick Price at Esalen Institute. The objective of the practice is to become more fully aware of the process of living within a unified field of body, mind, relationship, earth and spirit.Gestalt is a German word that denotes form, shape or configuration, and connotes wholeness. Practice is an ongoing program or process of development.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8lFg68HmLyuVqRw8McNfL7 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8lFg68HmLyuVqRw8McNfL7">
+        <rdfs:label>Multimedia Library</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RXdPjPvXlVhAUGqBpd2cK0"/>
+        <skos:definition>A multimedia library is a public institution functioning as a library but containing not only traditional books, newspapers and magazines, but also video recordings (movies, documentaries), sound recordings (music, audio books) and all sorts of electronic resources.A multimedia library is distinct from a hybrid library which contains only books and e-books.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8zUpyyyzzxwx7hPCXv9mD5 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8zUpyyyzzxwx7hPCXv9mD5">
+        <rdfs:label>Seed Library</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RXdPjPvXlVhAUGqBpd2cK0"/>
+        <skos:definition>A seed library is an institution that lends or shares seed. It is distinguished from a seedbank in that the main purpose is not to store or hold germplasm or seeds against possible destruction, but to disseminate them to the public which preserves the shared plant varieties through propagation and further sharing of seed. Seed libraries usually maintain their collections through donations from members. but may also operate as pure charity operations intent on serving gardeners and farmers. A common attribute of many seed libraries is to preserve agricultural biodiversity by focusing on rare, local, and heirloom seed varieties.Seed libraries use varied methods for sharing seeds, primarily by:seed swaps otherwise known as seed exchanges, in which library members or the public meet and exchange seedsseed &quot;lending,&quot; in which people check out seed from the library&apos;s collection, grow them, save the seed, and return seed from the propagated plants to the librarySeed libraries may function as programs of public libraries, such as the programs of the Richmond Public Library (California) in California (the &quot;Richmond Grows&quot; program is the &quot;unofficial spiritual center of the [public library seed library] movement&quot;) and the New Port Richey Public Library (Florida) college libraries, such as Hampshire College&apos;s seed library; museums, such as the Hull-House Heirloom Seed Library, a program of the Jane Addams Hull-House Museum. or as membership based online programs like the Hudson Valley Seed Library. Some have developed as programs of botanical gardens, such as that of the VanDusen Botanical Garden, or from gardening associations and research institutes, such as the Heritage Seed Library of Garden Organic. Other seed libraries have evolved from community sustainability or resilience efforts, such as the Bay Area Seed Interchange Library (BASIL) (the United States&apos; oldest seed library, which developed from the Berkeley, California Ecology Center); and still others from the Slow Food movement, such as Grow Gainesville&apos;s seed program.While &quot;lending&quot; is straightforward, &quot;returning&quot; or re-depositing seeds presents a challenge, since the new seeds are not necessarily well-described, and may be hybrids.Seed libraries complement the preservationist activities of seedbanks, by collecting local and heirloom varieties that might otherwise be lost, and by collecting new local varieties. In theory, lending and returning seed libraries will also promote local agriculture over time, by growing collections of seeds locally adapted to the region.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R95XHYKrPcL1WU18GXrWroh -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R95XHYKrPcL1WU18GXrWroh">
+        <rdfs:label>Solar settlement</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7aEgIZMapwwSjHuL9ftpYF"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R98q9GsZfDdh0v5xlcpUbPr -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R98q9GsZfDdh0v5xlcpUbPr">
+        <rdfs:label>Distributed Library</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RXdPjPvXlVhAUGqBpd2cK0"/>
+        <skos:definition>A distributed library is a collection of materials available for borrowing by members of a group, yet not maintained or owned by a single entity. The library catalog is maintained on a database that is made accessible to users through the Internet. An early example of this style of library (if not the first of its type) is the Distributed Library Project of the San Francisco Bay Area.This style of library is still in its infancy. While libraries are being established in several cities worldwide, the San Francisco Bay Area library still only has a few hundred members. Administrative software continues to be developed and distributed.Another example which takes a slightly different approach is Unlibrary.com. In this system users are free to create communities of any size and scope, rather than a single city-wide community. For instance a church might have its own community, with church members all able to borrow from each other. Users can also have private, invite-only groups.Another example is the digibruted library of Geneva. The name digibruted is coined from “Digital” and “Distributed”. It does not mean that the library is brutalized by digital attacks, but rather that the library is a digital construction, indexing real assets (books in this case) distributed in the real world. The difference from Unlibrary is that the books are freely given to readers, who act also as librarians, in a kind of peer-to-peer schema.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9VqRCDLBvhfRYTCdoiYm9O -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9VqRCDLBvhfRYTCdoiYm9O">
+        <rdfs:label>Educational Buildings</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCofu2WqVOq8BAEUf6BnVLw"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9XdctrMiu52h9fqPzTDWS -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9XdctrMiu52h9fqPzTDWS">
+        <rdfs:label>Run run Shaw creative media centre</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9VqRCDLBvhfRYTCdoiYm9O"/>
+        <skos:definition>Run Run Shaw Creative Media Centre (Abbreviation: CMC Chinese: ?????????) is an academic building on the campus of the City University of Hong Kong which is built in 2011. It locates on the Tat Hong Avenue, Kowloon Tong. It is in the north to City University’s main campus. It was designed by Daniel Libeskind cooperating with Leigh and Orange Ltd. The building received architectural awards from Emporis and International Property Awards.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBBP4vmKB0Xp7ykFx5GFPWg -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBBP4vmKB0Xp7ykFx5GFPWg">
+        <rdfs:label>Greenwashing</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDnnpjK0ddDcqgYMJjWLtLw"/>
+        <rdfs:comment>Greenwashing (a compound word modelled on &quot;whitewash&quot;), or &quot;green sheen,&quot; is a form of spin in which green PR or green marketing is deceptively used to promote the perception that an organization&apos;s products, aims or policies are environmentally friendly.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBUyeJ6KLXCUK1BgwWopI9r -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBUyeJ6KLXCUK1BgwWopI9r">
+        <rdfs:label>Eco-terrorism</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDnnpjK0ddDcqgYMJjWLtLw"/>
+        <skos:definition>Eco-terrorism usually refers to acts of violence committed in support of ecological or environmental causes, against persons or their property.Eco-terrorism is defined by the Federal Bureau of Investigation as &quot;the use or threatened use of violence of a criminal nature against people or property by an environmentally oriented, subnational group for environmental-political reasons, or aimed at an audience beyond the target, often of a symbolic nature.&quot; The FBI credited eco-terrorists with 200 million dollars in property damage between 2003 and 2008, and a majority of states within the USA have introduced laws aimed at eco-terrorism.Critics of this use of the term argue that it has been defined in order to vilify environmental activists, and that the term would be more properly employed to describe the environmentally damaging activities of corporations.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBYMNUbMWrpwQYyWBuFMU3 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBYMNUbMWrpwQYyWBuFMU3">
+        <rdfs:label>Ecotivity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDnnpjK0ddDcqgYMJjWLtLw"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC3YfVvntcaGezTJasNQBOZ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC3YfVvntcaGezTJasNQBOZ">
+        <rdfs:label>Slide Library</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RXdPjPvXlVhAUGqBpd2cK0"/>
+        <skos:definition>A slide library is a library that houses a collection of photographic slides, either as a part of a larger library or standing alone within a larger organization, such as an academic department of a college or university, a museum, or a corporation. Typically, a &quot;slide library&quot; contains slides depicting artwork, architecture, and cultural objects, and is typically used for the study, teaching, and documentation of art history, architectural history, and visual culture. Other academic disciplines, such as biology and other sciences, also maintain image collections. Corporations may also have image libraries to maintain and document their publications and history. Increasingly, these types of libraries are known as &quot;Visual Resources Collections,&quot; as they may be responsible for all &quot;visual&quot; materials for the study of a subject and include still and moving images in a variety of physical and virtual formats. They may contain:35mm slideslantern slidesmounted study photographsdigital imagesfilm and video</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC70YPfuhPXuRJXhUcPPsoM -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC70YPfuhPXuRJXhUcPPsoM">
+        <rdfs:label>Reference Library</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RXdPjPvXlVhAUGqBpd2cK0"/>
+        <skos:definition>A library is an organized collection of sources of information and similar resources, made accessible to a defined community for reference or borrowing. It provides physical or digital access to material, and may be a physical building or room, or a virtual space, or both. A library&apos;s collection can include books, periodicals, newspapers, manuscripts, films, maps, prints, documents, microform, CDs, cassettes, videotapes, DVDs, Blu-ray Discs, e-books, audiobooks, databases, and other formats. Libraries range in size from a few shelves of books to several million items. In Latin and Greek, the idea of bookcase is represented by Bibliotheca and Biblioth?k? (Greek: ??????????): derivatives of these mean library in many modern languages, e.g. French bibliothèque.The first libraries consisted of archives of the earliest form of writing—the clay tablets in cuneiform script discovered in Sumer, some dating back to 2600 BC. Private or personal libraries made up of written books appeared in classical Greece in the 5th century BC. In the 6th century, at the very close of the Classical period, the great libraries of the Mediterranean world remained those of Constantinople and Alexandria.A library is organized for use and maintained by a public body, an institution, a corporation, or a private individual. Public and institutional collections and services may be intended for use by people who choose not to—or cannot afford to—purchase an extensive collection themselves, who need material no individual can reasonably be expected to have, or who require professional assistance with their research. In addition to providing materials, libraries also provide the services of librarians who are experts at finding and organizing information and at interpreting information needs. Libraries often provide quiet areas for studying, and they also often offer common areas to facilitate group study and collaboration. Libraries often provide public facilities for access to their electronic resources and the Internet. Modern libraries are increasingly being redefined as places to get unrestricted access to information in many formats and from many sources. They are extending services beyond the physical walls of a building, by providing material accessible by electronic means, and by providing the assistance of librarians in navigating and analyzing very large amounts of information with a variety of digital tools.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCB5YxoVNEismkh9WIPCU5j -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCB5YxoVNEismkh9WIPCU5j">
+        <rdfs:label>Eco-socialism</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDnnpjK0ddDcqgYMJjWLtLw"/>
+        <rdfs:comment>Eco-socialism, green socialism or socialist ecology is an ideology merging aspects of Marxism, socialism, and/or libertarian socialism with that of green politics, ecology and alter-globalization.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCBCKht0dYfQ8hWyAxCwGYH -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCBCKht0dYfQ8hWyAxCwGYH">
+        <rdfs:label>Green wall</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7aEgIZMapwwSjHuL9ftpYF"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCVf0JMnN9RF6Lc55NfySlO -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCVf0JMnN9RF6Lc55NfySlO">
+        <rdfs:label>Sun ship (building)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7aEgIZMapwwSjHuL9ftpYF"/>
+        <skos:definition>The Sun Ship is a large integrated office/retail building designed by architect Rolf Disch and located in Freiburg directly next to the Solar Settlement by the same designer. It uses 60,000 sq. ft. for retail, commercial and residential space.As a whole this building produces more energy than it consumes per year and utilizes the most up-to-date building technology. Some aspects that make this building particular are its vacuum insulated walls, ventilation with 95% heat recovery, triple paned windows and its energy façade.It is the first positive energy office building worldwide. The office spaces are flanked on both the East and West sides entirely with windows, which maximizes natural lighting and employee views while it minimizes the energy used for artificial lighting.The Sun Ship guests a supermarket, convenience store and bakery-café on the first floor, offices and work spaces on the 2-4 floors and 9 penthouses on its roof. In addition to the office and retail space, there are two conference rooms.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCYKmrsXwf9fhUygGlLCBXS -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCYKmrsXwf9fhUygGlLCBXS">
+        <rdfs:label>Lifeboat ethics</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDnnpjK0ddDcqgYMJjWLtLw"/>
+        <skos:definition>Lifeboat ethics is a metaphor for resource distribution proposed by the ecologist Garrett Hardin in 1974.Hardin&apos;s metaphor describes a lifeboat bearing 50 people, with room for ten more. The lifeboat is in an ocean surrounded by a hundred swimmers. The &quot;ethics&quot; of the situation stem from the dilemma of whether (and under what circumstances) swimmers should be taken aboard the lifeboat.Hardin compared the lifeboat metaphor to the Spaceship Earth model of resource distribution, which he criticizes by asserting that a spaceship would be directed by a single leader — a captain — which the Earth lacks. Hardin asserts that the spaceship model leads to the tragedy of the commons. In contrast, the lifeboat metaphor presents individual lifeboats as rich nations and the swimmers as poor nations.Lifeboat ethics is closely related to environmental ethics, utilitarianism, and issues of resource depletion. Hardin uses lifeboat ethics to question policies such as foreign aid, immigration, and food banks.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCjLAPlAvbjPwHY82RHT6Tn -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCjLAPlAvbjPwHY82RHT6Tn">
+        <rdfs:label>Academic Library</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RXdPjPvXlVhAUGqBpd2cK0"/>
+        <rdfs:comment>Template:Multiple issuesAn academic library is a library that is attached to a higher education institution which serves two complementary purposes to support the school&apos;s curriculum, and to support the research of the university faculty and students. It is unknown how many academic libraries there are internationally. An academic and research portal maintained by UNESCO links to 3,785 libraries.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCofu2WqVOq8BAEUf6BnVLw -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCofu2WqVOq8BAEUf6BnVLw">
+        <rdfs:label>Subjects of Green Libraries</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <skos:definition>Sustainable Libraries</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDl5WW2CXNBV0toHPEc4Nng -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDl5WW2CXNBV0toHPEc4Nng">
+        <rdfs:label>Ice stone</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7aEgIZMapwwSjHuL9ftpYF"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDnnpjK0ddDcqgYMJjWLtLw -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDnnpjK0ddDcqgYMJjWLtLw">
+        <rdfs:label>Environmentalism</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCofu2WqVOq8BAEUf6BnVLw"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDqArtT1a6OYahYmFdKfCSx -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDqArtT1a6OYahYmFdKfCSx">
+        <rdfs:label>Outline of green politics</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDnnpjK0ddDcqgYMJjWLtLw"/>
+        <rdfs:comment>The following outline is provided as an overview and topical guide to green politics:Green politics – political ideology that aims for the creation of an ecologically sustainable society rooted in environmentalism, social liberalism, and grassroots democracy. It began taking shape in the western world in the 1970s; since then Green parties have developed and established themselves in many countries across the globe, and have achieved some electoral success.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDz9ue7TjP6zL9PaXbs341d -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDz9ue7TjP6zL9PaXbs341d">
+        <rdfs:label>Lending Library</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RXdPjPvXlVhAUGqBpd2cK0"/>
+        <rdfs:comment>A lending library is a library from which books are lent out. The earliest reference to or use of the term &quot;lending library&quot; yet located in English correspondence dates from ca. 1586; C&apos;Tess Pembroke Ps. CXII. v, &quot;He is ... Most liberall and lending,&quot; referring to the books of an unknown type of library, and later in a context familiar to users of contemporary English, in 1708, by J. Chamberlayne; St. Gt. Brit.; III. xii. 475 &quot;[The Libraries] of Cambridge are Lending-libraries; that is, he that is qualified may borrow out of it any book he wants&quot;. This definition is closely associated with libraries in England before the Public Libraries Act 1850 was passed which allowed cities to use taxes to create and maintain libraries but did not require cities build them. This definition is also applicable in the United States before 1850 and widespread School District Library Acts which were passed in many states at the same time. It may also refer to a library or other institution that sends materials on request to another library, usually via interlibrary loan.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RIK4BSZ3ut9GIhpvw4AOoO -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RIK4BSZ3ut9GIhpvw4AOoO">
+        <rdfs:label>Ecosophy</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDnnpjK0ddDcqgYMJjWLtLw"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RC0CSgMrqDGcstGW1mDgdig"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RrQShC1aL0fd5jaaSR7w73"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RQLFTCqSiWtZjocC3omxCn -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RQLFTCqSiWtZjocC3omxCn">
+        <rdfs:label>Eco-warrior</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDnnpjK0ddDcqgYMJjWLtLw"/>
+        <skos:definition>The term eco-warrior is a self-description for an environmental activist that adopts a &apos;hands-on&apos; effort to save a plot of land. In the UK it was the media that coined the term in the 1990s, a label that many people actively taking ecological direct action resisted, for philosophical reasons.A common symbol of an eco-warrior is the Eco Warriors Flag.Another use of the term refers to an environmental activist who engages in illegal activities, also known as eco-terrorism. However, an eco-warrior is also someone who utilizes the courts to halt, suspend, or otherwise derail a human activity that the activist believes adversely impacts the environment.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RXdPjPvXlVhAUGqBpd2cK0 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RXdPjPvXlVhAUGqBpd2cK0">
+        <rdfs:label>Types Of Libraries</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCofu2WqVOq8BAEUf6BnVLw"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RZwbAcdk80z2TOCkXzQc7X -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RZwbAcdk80z2TOCkXzQc7X">
+        <rdfs:label>Folkewall</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7aEgIZMapwwSjHuL9ftpYF"/>
+        <skos:definition>The Folkewall is a construction with the dual functions of growing plants and purifying waste water. It was designed by Folke Günther in Sweden.Inspired by the &quot;Sanitas wall&quot; at Dr Gösta Nilsson&apos;s Sanitas farm project in Botswana, this technique makes an efficient use of space by fulfilling two essential functions: vertical plant growing and purification of greywater. This system is also known as a living wall or green wall.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RaRiDXkvt0nTPLyNQUiXEf -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RaRiDXkvt0nTPLyNQUiXEf">
+        <rdfs:label>Solar shingle</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7aEgIZMapwwSjHuL9ftpYF"/>
+        <skos:definition>Solar shingles, also called photovoltaic shingles, are solar cells designed to look like conventional asphalt shingles. There are several varieties of solar shingles, including shingle-sized solid panels that take the place of a number of conventional shingles in a strip, semi-rigid designs containing several silicon solar cells that are sized more like conventional shingles, and newer systems using various thin film solar cell technologies that match conventional shingles both in size and flexibility. Solar shingles are manufactured by several companies but the two main manufacturers of solar roof shingles are Dow and CertainTeed.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RbWzcJanvOtEbbwHmqeBLu -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RbWzcJanvOtEbbwHmqeBLu">
+        <rdfs:label>One-person Library</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RXdPjPvXlVhAUGqBpd2cK0"/>
+        <skos:example rdf:resource="http://www.sla.org/division/dsol/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RfLxYlfhn9jHTufPUnriFn -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RfLxYlfhn9jHTufPUnriFn">
+        <rdfs:label>Energy monitoring and targeting</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7aEgIZMapwwSjHuL9ftpYF"/>
+        <rdfs:comment>Energy monitoring and targeting (M&amp;T) is an energy efficiency technique based on the standard management axiom stating that “you cannot manage what you cannot measure”. M&amp;T techniques provide energy managers with feedback on operating practices, results of energy management projects, and guidance on the level of energy use that is expected in a certain period.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Ri9kzaLr9qVCDLdB2qwAxO -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Ri9kzaLr9qVCDLdB2qwAxO">
+        <rdfs:label>Jane&apos;s Saddlebag</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9VqRCDLBvhfRYTCdoiYm9O"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RidKauKayOx544Hrasa1II -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RidKauKayOx544Hrasa1II">
+        <rdfs:label>Travelling Library</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RXdPjPvXlVhAUGqBpd2cK0"/>
+        <skos:definition>A traveling library is a collection of books lent for stated periods by a central library to a branch library, club, or other organization or, in some instances, to an individual. The chief characteristics from which it derives its name are its temporary location in the place to which the collections of books is sent and the implication that any traveling library will or may be changed for another collection of books. A bookmobile is an example.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RioXNsQFbmXY1ntzfIeXGS -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RioXNsQFbmXY1ntzfIeXGS">
+        <rdfs:label>School Library</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RXdPjPvXlVhAUGqBpd2cK0"/>
+        <skos:definition>A school library (or a school library media center) is a library within a school where students, staff, and often, parents of a public or private school have access to a variety of resources. The goal of the school library media center is to ensure that all members of the school community have equitable access &quot;to books and reading, to information, and to information technology.&quot; A school library media center &quot;uses all types of media... is automated, and utilizes the Internet [as well as books] for information gathering.&quot; School libraries are distinct from public libraries because they serve as &quot;learner-oriented laboratories which support, extend, and individualize the school&apos;s curriculum... A school library serves as the center and coordinating agency for all material used in the school.&quot;Researchers have demonstrated that school libraries have a positive impact on student achievement. More than 60 studies have been conducted in 19 U.S. states and one Canadian province. The major finding of these studies is that students with access to a well-supported school library media program with a qualified school library media specialist, scored higher on reading assessments regardless of their socio-economic statuses. In addition, a study conducted in Ohio revealed that 99.4% of students surveyed believed that their school librarians and school library media programs helped them succeed in school. A report that reported similar conclusions was compiled by Michele Lonsdale in Australia in 2003.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:comment>Green libraries are a part of the larger green building movement. Also known as sustainable libraries, green libraries are being built all over the world, with many high profile projects bringing the concept into the mainstream. Along with library 2.0, green design is an emerging trend, defining the library of the 21st century.</rdfs:comment>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCZPB63UZaD11ecpApgvdDo -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCZPB63UZaD11ecpApgvdDo">
+        <rdfs:label>http://dbpedia.org/resource/Red%E2%80%93green%E2%80%93brown_alliance</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDPjWNI69HpQPcmrNOhbUrj -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDPjWNI69HpQPcmrNOhbUrj">
+        <rdfs:label>http://dbpedia.org/resource/Institute_of_Education_building</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RrQShC1aL0fd5jaaSR7w73 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RrQShC1aL0fd5jaaSR7w73">
+        <rdfs:label>http://wifo5-03.informatik.uni-mannheim.de/flickrwrappr/photos/Ecosophy</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
+
